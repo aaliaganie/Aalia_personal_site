@@ -1,22 +1,25 @@
-
-body {background-color: #F9B5D0;}
-
-hr {
-border-style: none;
-border-top: dotted;
-border-color: grey;
-border-width: 5px;
-width: 5%;
+body {
+    margin: 0;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
 }
 
 h1 {
-    color:#85586F;
+    margin-top: 0;
 }
 
-h3 {
-    color: #85586F;
+div {
+    background-color: #A7727D;
 }
 
-a {
-    color: #85586F;
+.top-cloud {
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+
+.bottom-cloud {
+    position: relative;
+    right: 200px;
+    bottom: 350px;
 }
