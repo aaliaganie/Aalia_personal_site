@@ -10,9 +10,12 @@ h1 {
     color: #66BFBF;
 }
 
-div {
-    background-color: #A7727D;
+
+.first-half {
+    background-color: #EAF6F6;
+
 }
+
 
 .top-cloud {
     position: relative;
@@ -27,15 +30,15 @@ div {
 }
 
 .Cookies {
-    width: 25%;
+    width: 20%;
     float: left;
     margin-right: 30px;
 }
 
 .Chillies {
-    width: 25%;
+    width: 20%;
     float: right;
-    margin-right: 30px;
+    margin-right: 100px;
 }
 
 h2 {
@@ -55,4 +58,15 @@ h3 {
     margin-top: 100px;
     margin-bottom: 100px;
     text-align: left;
+}
+
+.description {
+    color: #40514E;
+}
+
+.aalia-picture {
+    width: 50%;
+    height: auto;
+    margin-top: 10%;
+    border-radius: 25%;
 }
