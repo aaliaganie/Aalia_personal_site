@@ -5,6 +5,8 @@ body {
     font-family:'Courier New', Courier, monospace
 }
 
+  /* Heading Tags */
+
 h1 {
     margin-top: 50px auto 0 auto;
     font-size: 5.625rem;
@@ -23,9 +25,13 @@ h3 {
     font-family:'Courier New', Courier, monospace;
 }
 
+  /* Paragraph Tags */
+
 p {
     line-height: 2;
 }
+
+  /* Anchor Tags */
 
 a {
     color: #11999E;
@@ -36,6 +42,8 @@ a {
 a:hover {
     color: #EAF6F6;
 }
+
+  /* Class Tags */
 
 .first-half {
     background-color: #EAF6F6;
@@ -92,27 +100,6 @@ a:hover {
     border-bottom: none;
     border-right: none;
 }
-
-#box {
-    width: 40px;
-    position: relative;
-    padding-left: 50%;
-    color: #40514E;
-}
-  
-#borderLeft {
-    border-left: 2px solid;
-    position: absolute;
-    top: 50%;
-    bottom: 0;
-}
-
-#box1 {
-    width: 40px;
-    position: relative;
-    padding-left: 50%;
-    color: #40514E;
-  }
 
 .button {
     background-color: rgb(0, 195, 255);
@@ -172,4 +159,27 @@ a:hover {
     color: #EAF6F6;
     font-size: 0.75rem;
     padding: 20px 0;
+  }
+
+  /* ID Tags */
+
+  #box {
+    width: 40px;
+    position: relative;
+    padding-left: 50%;
+    color: #40514E;
+}
+  
+#borderLeft {
+    border-left: 2px solid;
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+}
+
+#box1 {
+    width: 40px;
+    position: relative;
+    padding-left: 50%;
+    color: #40514E;
   }
